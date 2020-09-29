@@ -9,6 +9,4 @@ const sum = (num1, num2) => {
   return first_number + second_number;
 };
 
-module.exports = {
-  sum,
-};
+export { sum };

@@ -21,7 +21,4 @@ const parse = string =>
     }),
   );
 
-module.exports = {
-  queryString,
-  parse,
-};
+export { queryString, parse };
